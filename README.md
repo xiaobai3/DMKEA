@@ -42,3 +42,26 @@ Usage
 
    ```matlab
    main_DMKEA
+   
+Notes
+----
+1. Problem settings, sparsity levels, and dimensionality can be configured directly in the main_DMKEA.m script.
+2. Real-world problem instances may require updating the pv vector during evolution, unlike benchmark problems which use a fixed pv computed at initialization.
+
+Citation
+--------
+If you use DMKEA in your research, please cite:
+
+L. Bai et al., "Dynamic Knowledge-Guided Evolutionary Algorithm for Sparse Large-Scale Multi-Objective Optimization," 2025. (Under review)
+
+Acknowledgement
+----------------
+This algorithm was implemented and tested using the PlatEMO platform:
+
+Ye Tian, Ran Cheng, Xingyi Zhang, and Yaochu Jin, "PlatEMO: A MATLAB Platform for Evolutionary Multi-Objective Optimization [Educational Forum]," IEEE Computational Intelligence Magazine, vol. 12, no. 4, pp. 73–87, 2017.
+
+License
+-------
+This code is provided for academic and research use only. Please retain this notice in all copies or redistributions of the code.
+
+
